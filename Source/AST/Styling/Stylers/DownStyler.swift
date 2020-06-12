@@ -35,10 +35,9 @@ open class DownStyler: Styler {
 
     private let itemParagraphStyler: ListItemParagraphStyler
 
-    private var listPrefixAttributes: [NSAttributedString.Key : Any] {[
+    private let listPrefixAttributes: [NSAttributedString.Key : Any] = [
         .font: fonts.listItemPrefix,
         .foregroundColor: colors.listItemPrefix]
-    }
 
     // MARK: - Init
 

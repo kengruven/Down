@@ -30,6 +30,6 @@ class ListItemPrefixGenerator {
     }
 
     func next() -> String? {
-        prefixes.next()
+        return prefixes.next()
     }
 }
